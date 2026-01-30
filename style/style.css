@@ -1,3 +1,236 @@
-h1{
-    color: brown;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body{
+    margin:10px 150px 10px 150px;
+    background-color: #F5F5F5;
+}
+p{
+    color: #515151;
+}
+.primary-fonts{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+  background-color: white; 
+  border: 1px solid seagreen;
+  color: green;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(195, 246, 229);
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.explore-btn{
+    background-color: rgb(3, 74, 29); 
+  border: none;
+  color: rgb(248, 251, 248);
+  font-size:16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.pillars{
+    display: flex;
+}
+.pillars-item{
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.Transformation{
+    display: flex;
+}
+.trans-background{
+    margin-left: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.a{
+    background-color: #D5E1F5;
+}
+.b{
+    background-color: #C6E4D6;
+}
+.c{
+    background-color: #C9BFA8;
+}
+
+.btn1{
+     background-color: #5490F5; 
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.btn2{
+     background-color: #09A15C; 
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.btn3{
+     background-color: #FFC239; 
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.host{
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #F5F5F5;
+}
+
+.opinion{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.t-head{
+    text-align: left;
+    background-color: #C6E4D6;
+}
+.th-border{
+    border: none;
+}
+select{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #C6E4D6;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+table{
+    width: 100%;
+}
+.text-centre{
+    text-align: center;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.satelite{
+    border-radius: 10px;
+}
+.news-info{
+    margin-left: 40px;
+}
+.new-btn{
+      background-color: #006A50; 
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.donate{
+    display: flex;
+    justify-content: center;
+}
+.amount{
+    height: 70px;
+    width: auto;
+    background-color: white;
+    padding: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.donate-input{
+    width: 70%;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Donate-btn{
+    background-color: #006A50; 
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.subscribe-footer{
+    background-color: #C6E4D6;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.subscribe-btn{
+     background-color: #006A50; 
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.footer{
+    height: auto;
+    width: 1581px;
+    background-color: white;
+    margin-left: -150px;
+}
+.icon img{
+    padding: 20px;
+    font-size: 50px;
 }
